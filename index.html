@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Website</title>
+
+    <style>
+        /* Basic reset to remove any default margin or padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9; /* Light background color */
+            color: #333; /* Dark text for easy reading */
+            text-align: center; /* Center all text on the page */
+            padding: 20px;
+        }
+
+        header {
+            background-color: #4CAF50; /* Green background for header */
+            color: white; /* White text in header */
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Larger heading */
+        }
+
+        .logo {
+            width: 150px; /* Logo size */
+            margin-top: 20px;
+        }
+
+        section {
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1.1em;
+            cursor: pointer;
+            background-color: #4CAF50; /* Green button */
+            color: white; /* White text on button */
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green when hovering */
+        }
+
+        #navigation {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website!</h1>
+        <img src="images/logo.jpg" alt="Logo" class="logo">
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>Welcome to my personal website. Here, you'll find various interesting content ranging from interactive features to insightful articles. Stay tuned for more updates!</p>
+    </section>
+
+    <section id="next">
+        <h3>What's Next?</h3>
+        <p>Click the button below to explore more content and features of this website.</p>
+        <button id="exploreButton">Explore Now</button>
+    </section>
+
+    <div id="navigation">
+        <button onclick="window.location.href='definitions.html'">Next</button>
+    </div>
+
+</body>
+</html>
